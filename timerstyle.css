@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#237c66, #ddece8);
+  height: 930px;
+}
+
+.header {
+  border: 1px solid;
+  top: 0;
+  background-color: white;
+  height: auto;
+  padding: 35px;
+  font-size: 25px;
+  margin: 0;
+  line-height: 45px;
+}
+
+.current-time {
+  font-size: 17px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+.link {
+  position: fixed;
+  color: #555252;
+  margin: 25px;
+  top: 220px;
+  left: 30px;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: white;
+  font-size: 21px;
+}
+
+.link:active {
+  color: #dad0d0;
+}
+
+.Timer-text {
+  /* other ways */
+  /* position: fixed;
+  top: 250px;
+  right: 550px; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.calc {
+  border-radius: 4px;
+  position: fixed;
+  font-size: 25px;
+  border: none;
+  /* padding: 5; */
+}
+
+.add {
+  top: 37.5%;
+  left: 57%;
+  background-color: #55b055;
+}
+
+.remove {
+  top: 30.5%;
+  left: 57%;
+  background-color: #be5c5c;
+  /* padding-top: 5px; */
+}
+
+.btn {
+  position: absolute;
+  border-radius: 6px;
+  border: none;
+  width: 60px;
+  height: 40px;
+  top: 50%;
+}
+
+.start {
+  left: 55%;
+  background-color: #69d99b;
+}
+
+.pause {
+  left: 45%;
+  background-color: #dfa4a4;
+}
+
+.reset {
+  left: 35%;
+  background-color: #5d66c1;
+}
+
+.add:hover,
+.remove:hover {
+  border: 1px solid #818181;
+}
+
+.add:active,
+.remove:active {
+  border: none;
+}
+
+.start:hover,
+.pause:hover,
+.reset:hover {
+  border: 2px solid #5a5555;
+}
+
+.start:active,
+.pause:active,
+.reset:active {
+  border: 1px solid black;
+}
